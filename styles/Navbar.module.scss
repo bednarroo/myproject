@@ -1,0 +1,54 @@
+.userPreference{
+    position: absolute;
+    font-weight: 1000;
+    font-size: 20px;
+    z-index: 2;
+    margin-top: 5px;
+    margin-left: 85vw;
+    padding: 5px;
+    border: 1px solid #782834;
+    border-radius: 5%;
+
+    &__element {
+        width: 130px;
+        display: flex;
+        flex-direction: row;
+        max-height: 20px;
+}
+
+    & svg {
+                height: 20px;
+                margin-left: 10px;
+        }
+    }
+
+
+.navigation{
+    background-color: white;
+    font-weight: 1000;
+    font-size: 25px;
+    position: sticky;
+    width: 100vw;
+    display: flex;
+    padding: 10px 20px 0 20px;
+    border-bottom: 5px solid #782834;
+    height: 130px;
+    justify-content: space-between;
+    &__container{
+        display: flex;
+        list-style-type: none;
+    }
+    &__link{
+        padding:15px 25px;
+        &:hover{
+            border-bottom: #782834 2px solid;
+        }
+        & svg {
+            height: 20px;
+            margin-left: 10px;
+    }
+    }
+    &__logo{
+        margin: 10px 0 0px 40px;
+    }
+}

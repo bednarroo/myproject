@@ -1,0 +1,71 @@
+.userPreference {
+  position: absolute;
+  font-weight: 1000;
+  font-size: 20px;
+  z-index: 2;
+  margin-top: 5px;
+  margin-left: 85vw;
+  padding: 5px;
+  border: 1px solid #782834;
+  border-radius: 5%;
+}
+
+.userPreference__element {
+  width: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 20px;
+}
+
+.userPreference svg {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.navigation {
+  background-color: white;
+  font-weight: 1000;
+  font-size: 25px;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 0 20px;
+  border-bottom: 5px solid #782834;
+  height: 130px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation__link {
+  padding: 15px 25px;
+}
+
+.navigation__link:hover {
+  border-bottom: #782834 2px solid;
+}
+
+.navigation__link svg {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.navigation__logo {
+  margin: 10px 0 0px 40px;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
