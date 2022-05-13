@@ -1,8 +1,12 @@
+import AboutUs from "../../components/AboutUs"
+import Locations from "../../components/Locations"
+
 export default function Home() {
   
   return (
     <>
-   <div>test</div>
+   <AboutUs btn="0"/>
+   <Locations />
     </>
   )
 }

@@ -1,0 +1,26 @@
+.location{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #782834;
+    &__top{
+        height: 200px;
+    }
+    &__bottom{
+        height: 150px;
+        padding-top: 60px;
+        text-align: center;
+    }
+    &__circle{
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translate( -50%, 0%);
+        & span{
+        border-radius: 50%;
+        }
+        
+    }
+}

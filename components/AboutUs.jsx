@@ -4,7 +4,7 @@ import Link from 'next/link';
 import AboutUsPicture from "../pictures/AboutUs2.jpg"
 import Tomato from "../pictures/Tomato.png"
 
-export default function AboutUs () {
+export default function AboutUs (props) {
 
     return(
         <section className={styles.aboutUs}>
@@ -27,11 +27,9 @@ export default function AboutUs () {
             
 
             </div>
-            <Link href={`/about}`}>
-        <button className={styles.aboutUs__btn}>
-            About Us
-        </button>
-        </Link>
+                {props.btn==="1" ? <Link href={`/about`}><button className={styles.aboutUs__btn}>About Us</button></Link> : "" }
+        
+        
         </section>
     )
 }

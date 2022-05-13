@@ -13,7 +13,7 @@ export default function Home() {
     <>
     <Slider/>
     <Newest/>
-    <AboutUs/>
+    <AboutUs btn="1"/>
     <Socials/>
 
     </>
