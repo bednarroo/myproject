@@ -1,0 +1,15 @@
+.container{
+    &__name{
+        width: 100vw;
+        margin: 30px auto;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
+    
+}

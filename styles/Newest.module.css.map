@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,gBAAO,CAAA;EACH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,SAAS;CAC7B;;AACA,AAAD,iBAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Newest.module.scss"
+    ],
+    "names": [],
+    "file": "Newest.module.css"
+}

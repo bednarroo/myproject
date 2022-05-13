@@ -6,9 +6,11 @@ import React, { useState } from 'react';
 
 
 export default function Slider () {
+    
     const [sliderNumber, setSliderNumber] = useState(0);
     
     const handleSlide = (value, prevState) =>{
+        
         if(value === "r" ){
             if(sliderNumber < data.length -1 ){
                 setSliderNumber(sliderNumber + 1);
@@ -25,10 +27,12 @@ export default function Slider () {
         }
     }
     return(
+        
     <div className={styles.sliderContainer}>
     <div onClick={() => handleSlide("l")} className={styles.sliderContainer__arrow + " " + styles.sliderContainer__leftarrow } >
     <Image src={Arrow} style={{zIndex: '-1', bottom: "500px"}} alt="Left arrow" height="100 px" width ="50 px" /> 
     </div>
+    
         <div className={styles.sliderContainer__picture}>
         {data.map((element, key) => 
              {return(
