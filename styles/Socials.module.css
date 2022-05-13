@@ -1,0 +1,14 @@
+.socials {
+  margin: 30px 0;
+}
+
+.socials__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials__element {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=Socials.module.css.map */
