@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    font-family: Garamond;
+
+    &__left{
+        width: 25%;
+    }
+    &__sortTitle, &__sortDate, &__sortCategory{
+        text-align: center;
+        margin: 20px auto;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    &__sortTitle{
+        text-decoration: underline;
+    }
+    &__right{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+}

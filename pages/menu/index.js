@@ -1,8 +1,8 @@
-import styles from "../../styles/News.module.css";
-import NewsElement from "../../components/NewsElement";
-import { news } from "../../data/news.js";
+import styles from "../../styles/Menu.module.css";
+import Pizza from "../../components/Pizza";
+import { pizzas } from "../../data/pizzas.js";
 
-export default function News() {
+export default function Menu() {
     return ( 
     
     <section className={styles.container}>
@@ -11,22 +11,23 @@ export default function News() {
             <span>Sort you order:</span>
             
         </div>
-        <div className={styles.container__sortDate}>
-            <span>Sort by date:</span>   
+        <div className={styles.container__sortPrice}>
+            <span>Sort by price:</span>   
         </div>
         <div className={styles.container__sortCategory}>
             <span>Sort by category:</span>  
         </div>
         </div>
         <div className={styles.container__right}>
-        {news.map( news => {
-            return <NewsElement key={news.id} news={news} />;
+        {pizzas.map( pizza => {
+            return <Pizza key={pizza.id} pizza={pizza} />;
         })}
         </div>
 
     </section>
     )
 }
+
 
 
 

@@ -3,11 +3,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  max-width: 100vw;
   border-top: 5px solid #782834;
   font-size: 20px;
   font-weight: 700;
-  padding-top: 10px;
+  padding: 15px 20px 0 20px;
 }
 
 .footer__left {
@@ -17,6 +17,7 @@
   -webkit-box-flex: 7;
       -ms-flex: 7;
           flex: 7;
+  margin-top: 20px;
 }
 
 .footer__right {
@@ -35,11 +36,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px;
   list-style-type: none;
 }
 
 .footer__link {
-  margin: 0px 10px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=Footer.module.css.map */

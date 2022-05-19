@@ -18,9 +18,14 @@ const Navbar =  ()=> {
 
             </div>
             <div className={styles.navigation}>
+                
                 <div className={styles.navigation__logo}>
+                    <a href="/">
                     <Image alt ="Trio Pizza" src={Icon} width="80px" height='80px' />
+                    </a>
                 </div>
+                
+                
                 <div className={styles.navigation__menu}>
                     <ul className={styles.navigation__container}>
                         <li className={styles.navigation__link}>

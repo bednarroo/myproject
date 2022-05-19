@@ -1,4 +1,8 @@
 .locations {
+  font-family: Garamond;
+}
+
+.locations__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,5 +12,12 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 20px 5vw;
+}
+
+.locations__title {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=Locations.module.css.map */
