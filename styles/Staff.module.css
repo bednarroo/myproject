@@ -1,0 +1,21 @@
+.staffContainer {
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.staffContainer__title {
+  text-align: center;
+  font-family: Garamond;
+}
+
+.staffContainer__members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1600px;
+}
+/*# sourceMappingURL=Staff.module.css.map */

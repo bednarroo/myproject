@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    font-family: Garamond;
+
+    &__left{
+        width: 25%;
+    }
+    &__sortTitle, &__sortDate, &__sortCategory{
+        text-align: center;
+        margin: 20px auto;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    &__sortTitle{
+        text-decoration: underline;
+    }
+    &__right{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+    &__categoryElement{
+        width: 150px;
+        height: 35px;
+        margin: 10px auto;
+        border: 1px solid black;
+        
+        text-align: center;
+    }
+}
+
+.article{
+    &__title, &__description, &__value{
+        width: 100%;
+        padding: 5px 20px;
+
+    }
+    &__description{
+        font-size: 20px;
+
+    }
+    &__value{
+        padding: 20px;
+        max-width: 1000px;
+
+    }
+}

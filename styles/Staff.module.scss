@@ -1,0 +1,16 @@
+.staffContainer{
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    
+
+    &__title{
+        text-align: center;
+        font-family: Garamond;
+    }
+    &__members{
+        display: flex;
+        max-width: 1600px;
+    }
+}

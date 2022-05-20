@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,MAAM;CAW1B;;AARI,AAAD,sBAAQ,CAAA;EACJ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,QAAQ;CACxB;;AACA,AAAD,wBAAU,CAAA;EACN,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "Staff.module.scss"
+    ],
+    "names": [],
+    "file": "Staff.module.css"
+}
