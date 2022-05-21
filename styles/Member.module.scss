@@ -1,0 +1,14 @@
+.member{
+    max-width: 400px;
+    margin: 25px 50px;
+    &__name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    &__description{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}

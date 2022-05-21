@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=Member.module.css.map */
+.member {
+  max-width: 400px;
+  margin: 25px 50px;
+}
+
+.member__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.member__description {
+  font-size: 15px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Member.module.css.map */

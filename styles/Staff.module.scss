@@ -12,5 +12,9 @@
     &__members{
         display: flex;
         max-width: 1600px;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: Garamond;
     }
 }
